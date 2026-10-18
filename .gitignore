@@ -1,0 +1,33 @@
+# local secrets — copy from app.env.example
+app.env
+.env
+.env.*
+!.env.example
+!app.env.example
+
+# build output
+/hedgepair
+/backend
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.out
+coverage.html
+
+# Go workspace
+vendor/
+bin/
+
+# editor / OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# logs
+*.log
